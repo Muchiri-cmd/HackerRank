@@ -10,7 +10,7 @@ def rack_em_up(side):
         
         #if both large,impossible
         if left_hollow>stacked_cube_l and right_hollow>stacked_cube_l:
-            print("No")
+            print("Noooooo")
             return
         else:
             #determine largest
@@ -22,9 +22,9 @@ def rack_em_up(side):
                 stacked_cube_l=right_hollow
                 right_runner-=1
             else:#largest side too large
-                print("No")
+                print("Nooooo")
                 return
-    print("Yes")
+    print("Hell Yeah! Ts wat im talkin bout'")
                 
 #input shi*
 no_of_tests=int(input())
